@@ -504,9 +504,18 @@
         footer i {
             color: #e53e3e;
         }
+        .header-img {
+    width: 150px;  /* Adjust as needed */
+    height: auto;  /* Maintains aspect ratio */
+    margin-bottom: 25px;
+    margin-left: 90px;
+    margin-right: 80px;
+}
+
     </style>
 </head>
 <body>
+
     <div class="background-animation">
         <div class="shapes">
             <div class="shape"></div>
@@ -515,9 +524,12 @@
             <div class="shape"></div>
         </div>
     </div>
-
     <div class="container">
         <header>
+            <img src="{{ url_for('static', path='nie.png') }}" alt="NIE" class="header-img">
+<img style="padding-bottom: 50px;" src="{{ url_for('static', path='ivis.png') }}" alt="IVIS" class="header-img">
+<img src="{{ url_for('static', path='pulse.png') }}" alt="Pulse" class="header-img">
+
             <div class="logo">
                 <i class="fas fa-lightbulb"></i>
             </div>
