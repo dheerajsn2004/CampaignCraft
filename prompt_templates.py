@@ -15,6 +15,9 @@ Make sure the ideas are:
 - Unique, avoiding overused marketing clichés  
 - Adaptable for digital and offline marketing  
 
-Format each idea clearly with numbers and proper spacing for readability.  
-RESPOND ONLY WITH THE TAGLINES AND CAMPAIGN IDEAS AND NO OTHER TEXT AND NO TEXT LIKE "idea-item">.  
+Format each idea with a number followed directly by 'Tagline:' with no extra text or prefixes like 'idea-item'.
+Example format:
+**1. Tagline:** Your tagline here
+**Campaign Concept:** Your concept here
+**Theme:** Your theme here
 """
